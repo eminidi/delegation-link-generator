@@ -1,0 +1,10 @@
+print("Welcome to the delegation link generator: Easy-Delegate.")
+delegator = input("Who is the delegator? \n")
+delegatee = input("Who is the delegate? \n")
+vesting_shares = input("Amount of the delegation: \n")
+
+print("Generating ...")
+print("Link:")
+print("https://hivesigner.com/sign/delegateVestingShares?delegator={}&delegatee={}&vesting_shares={}%20HP".format(delegator, delegatee, vesting_shares))
+print("Recap: \n Delegator : {} \n Delegatee : {} \n Vesting_shares : {}".format(delegator, delegatee, vesting_shares))
+print("Copy the generated link and paste it into the navigation bar of your internet browser.")
