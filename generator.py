@@ -1,6 +1,6 @@
 print("Welcome to the delegation link generator: Easy-Delegate by eminidi")
 delegator = input("Who is the delegator? \n")
-delegatee = input("Who is the delegate? \n")
+delegatee = input("Who is the delegatee? \n")
 vesting_shares = input("Amount of the delegation: \n")
 
 print("Generating ...")
