@@ -1,4 +1,4 @@
-print("Welcome to the delegation link generator: Easy-Delegate.")
+print("Welcome to the delegation link generator: Easy-Delegate by eminidi")
 delegator = input("Who is the delegator? \n")
 delegatee = input("Who is the delegate? \n")
 vesting_shares = input("Amount of the delegation: \n")
